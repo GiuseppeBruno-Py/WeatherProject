@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Function that will transform the data
+# Function that will transform the data into a DataFrame
 def transform_weather_data(weather_data):
     columns = ["city", "country", "temperature", "humidity", "pressure"]
     transformed_data = []
@@ -13,6 +13,6 @@ def transform_weather_data(weather_data):
         pressure = data["main"]["pressure"]
 
         transformed_data.overwrite([city, country, temperature, humidity, pressure])
-    # Create a DataFrame from the transformed data
+    # Create a DataFrame from the transformed data list
     df = pd.DataFrame(transformed_data, columns=columns)
     return df

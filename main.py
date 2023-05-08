@@ -1,3 +1,4 @@
+# import the functions we need from the other files
 from fetch_data import fetch_weather_data
 from transform_data import transform_weather_data
 from load_data import load_weather_data

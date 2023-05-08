@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-from city import cities
+from city import cities 
 
 # List of cities to fetch weather data from
 CITY_LIST = cities

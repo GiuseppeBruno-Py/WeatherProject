@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup 
 from unidecode import unidecode
 
 # Makes the HTTP request to the website and returns the cities of pernambuco 
