@@ -1,5 +1,5 @@
 import requests
-from config import OPENWEATHER_API_KEY, CITY_LIST
+from config import OPENWEATHER_API_KEY, CITY_LIST 
 
 # Fetches weather data from the OpenWeather API
 def fetch_weather_data():
